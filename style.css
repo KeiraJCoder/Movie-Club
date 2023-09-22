@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Showtime';
-    src: url('/Users/keirajarvis/Desktop/Personal Dev/Film_Club/Showtime-R9Ke.ttf') format('truetype');
+    src: url('Showtime-R9Ke.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Midnight Champion';
-    src: url('/Users/keirajarvis/Desktop/Personal Dev/Film_Club/MidnightChampion-RjVE.ttf') format('truetype');
+    src: url('MidnightChampion-RjVE.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
