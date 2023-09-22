@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Picker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1 class="title">Frankie's Movie Club</h1>
+
+    <button id="pickButton">Pick a Movie</button><br><br>
+    <button id="watchThisButton">Watch This</button><br><br>
+
+    <div class="page">
+        <div id="vetoCount">Veto Count: <span id="remainingVetoes">10</span></div>
+        <label for="vetoCheckbox">Use Veto:</label>
+        <input type="checkbox" id="vetoCheckbox"><br>
+    </div>
+
+    <div class="results">
+        <div id="result">
+            <div>You should watch:</div>
+            <div id="movieName"></div>
+        </div>
+    </div>
+
+    <!-- Watched movies text box -->
+    <div id="watchedMoviesContainer">
+        <h2 class="section-title">Watched Movies</h2>
+        <textarea id="watchedMoviesList" rows="5" cols="30" readonly></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

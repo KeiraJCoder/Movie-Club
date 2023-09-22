@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Showtime';
+    src: url('/Users/keirajarvis/Desktop/Personal Dev/Film_Club/Showtime-R9Ke.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Midnight Champion';
+    src: url('/Users/keirajarvis/Desktop/Personal Dev/Film_Club/MidnightChampion-RjVE.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-size: 54px;
+    text-align: center;
+    background-image: url(depositphotos_9978983-stock-photo-grunge-film-background-with-space.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+}
+
+
+
+h1 {
+    color: #fbfafa;
+    font-size: 50px;
+    font-family: 'Showtime', Arial, sans-serif;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Midnight Champion', Arial, sans-serif;
+}
+
+button {
+    background-color: #10ff3c;
+    color: rgb(0, 0, 0);
+    font-family: 'Midnight Champion', Arial, sans-serif;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+label {
+    color: white;
+    font-family: 'Midnight Champion', Arial, sans-serif;
+    font-size: 25px;
+}
+
+#vetoCount {
+    color: white;
+    font-family: 'Midnight Champion', Arial, sans-serif;
+    font-size: 25px;
+}
+
+#result{
+    color:white;
+    font-family: 'Midnight Champion', Arial, sans-serif;
+    
+}
+
+/* Adjust the font size for specific elements directly */
+#result div:first-child {
+    font-size: 38px; /* "You should watch" font size */
+    
+
+}
+
+#result div:last-child {
+    font-size: 32px; /* Movie title font size */
+}
+
+/* Media query for screens with a maximum width of 768px (typical for mobile devices) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Reduce font size for smaller screens */
+    }
+
+    button {
+        font-size: 16px; /* Adjust button font size for smaller screens */
+    }
+
+    #result {
+        font-size: 18px; /* Adjust result font size for smaller screens */
+        margin-top: 10px; /* Reduce margin for smaller screens */
+    }
+
+    /* Add more specific styles for smaller screens as needed */
+}
